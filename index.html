@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Wanderer Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <style>
+
+      .preload-images {
+        overflow: hidden;
+        height: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="preload-images">
+      <img id="potgrey" src="img/grayscale.png">
+      <img id="potion" src="img/potionmap.png">
+      <img id="floor" src="img/floor.png">
+      <img id="wall" src="img/wall.png">
+      <img id="hero-up" src="img/hero-up.png">
+      <img id="hero-right" src="img/hero-right.png">
+      <img id="hero-down" src="img/hero-down.png">
+      <img id="hero-left" src="img/hero-left.png">
+      <img id="skeleton" src="img/skeleton.png">
+      <img id="boss" src="img/boss.png">
+      <img id="keygold" src="img/keygold.png">
+      <img id="keyblack" src="img/keyblack.png">
+      <img id="guiback" src="img/background.png">
+    </div>
+    <canvas width="1890" height="840" class="main-canvas"></canvas>
+    <div>
+      <canvas width="1890" height="150" class="healthbar"></canvas>
+      <p id="heroHp"></p>
+      <p id="heroSp"></p>
+      <p id="heroDp"></p>
+      <p id="heroLevel"></p>
+      <p id="mapLevel"></p>
+
+    </div>
+
+
+    <script src="bundle.js"></script>
+  </body>
+</html>

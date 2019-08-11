@@ -1,0 +1,58 @@
+
+body {
+  font-family: 'Overpass', sans-serif;
+  background-color: black;
+}
+
+.main-canvas {
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  border: 1px solid black;
+}
+
+.healthbar {
+  padding: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+textarea {
+  border: none;
+  background: none;
+}
+
+#heroHp {
+  position: absolute;
+  left : 50px;
+  top:855px;
+  font-size: 20px;
+}
+
+#heroSp {
+  position: absolute;
+  left: 50px;
+  top : 890px;
+  font-size: 20px;
+}
+
+#heroDp {
+  position: absolute;
+  left: 50px;
+  top: 925px;
+  font-size: 20px;
+}
+
+#heroLevel {
+  position: absolute;
+  left: 60px;
+  top : 1000px;
+  font-size: 18px;
+}
+
+#mapLevel {
+  font-size: 20px;
+  position: absolute;
+  right: 100px;
+  top: 890px;
+}
