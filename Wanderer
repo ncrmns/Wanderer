@@ -1,0 +1,3 @@
+#!bin/sh
+command docker build -t ncrmns/wanderer .
+command docker run --network host ncrmns/wanderer
